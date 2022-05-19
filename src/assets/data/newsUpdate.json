@@ -1,0 +1,40 @@
+{
+    "news_updates":
+    [
+        {
+            "title":"DCX and Control Union Announce Service Partnership",
+            "body":"Digital Commodity Group (DCX) and leading testing, inspection and certification company Control Union have",
+            "date":"October 2, 2022",
+            "image":"https://uploads-ssl.webflow.com/61dc1500e200c7e62711f5ac/6203c084f6c8a055fc57e1bf_6203b70b6e154d0a2ac22dbf_ControlUnion.png"
+        },
+        {
+            "title":"Digital Commodity Exchange and essDOCS partner to expand digital trade uptake in rice and fertilizer commodity verticals",
+            "body":"Singapore and Malta - 21 September 2021: Digital Commodity Exchange (DCX) today announced its partnership with",
+            "date":"September 21, 2021",
+            "image":"https://uploads-ssl.webflow.com/61dc1500e200c7e62711f5ac/61e151f3850ec621a8bfcd94_DCX%20Ess.png"
+        },
+        {
+            "title":"Digital Commodity Exchange announces its expansion to the pulses market",
+            "body":"Digital Commodity Exchange (DCX) has announced its expansion to the pulses markets with the creation of DCX - Pulses,...",
+            "date":"August 20, 2021",
+            "image":"https://uploads-ssl.webflow.com/61dc1500e200c7e62711f5ac/61e152096fa655f3b768c841_DCX%20Pulses.png"
+        },
+        {
+            "title":"Blockchain-enabled physical trading platform, Fertilizer Exchange announces partnership with Argus Media",
+            "body":"Fertilizer Exchange, the world’s first blockchain-enabled physical fertilizer trading platform today announced its",
+            "date":"July 21, 2021",
+            "image":"https://uploads-ssl.webflow.com/61dc1500e200c7e62711f5ac/61e1524d6965397a0870e5df_DCX%20Argus.png"
+        },
+        {
+            "title":"Fujitsu and Digital Commodity Exchange enter strategic agreement to accelerate digital transformation in global commodities trading",
+            "body":"Fujitsu Limited and Digital Commodity Exchange Pte. Ltd. (DCX) today announced that they have entered a...",
+            "date":"July 13, 2021",
+            "image":"https://uploads-ssl.webflow.com/61dc1500e200c7e62711f5ac/61e1526965527236858f5b43_DCX%20Fujitsu.png"
+        },
+        {
+            "title":"A New Way of Buying Rice",
+            "body":"Buyers of rice face many problems. They don’t know if they are getting the best price, they worry that they can’t trust new...",
+            "date":"June 19, 2020",
+            "image":"https://uploads-ssl.webflow.com/61dc1500e200c7e62711f5ac/61df2968b20e5f50a4e9d77f_A%20new%20way.png"
+        }
+]}

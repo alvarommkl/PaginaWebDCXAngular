@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+.bg-red {
+    background-color: red;
+}
+
+.bg-ft {
+    background-color: #121521;
+}
+
+.bg-f2 {
+    background-color: #1b2035;
+}
+
+.vid {
+    object-fit: cover;
+    height: 85vh;
+    width: 100%;
+}
+
+.bg-f {
+    background-color: #252c4a;
+}
+
+.frm {
+    width: 100%;
+}
+
+.btn-primary{
+    background-color: #ffca2c;
+    border-color: #ffca2c;
+    color:black;
+}
+
+.btn-primary:hover{
+    background-color: #ffca2c;
+    border-color: black;
+    color:  black;
+
+}
+/*# sourceMappingURL=style.css.map */
