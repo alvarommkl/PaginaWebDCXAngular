@@ -1,1 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+.bg-red {
+    background-color: red;
+}
+
+.bg-ft {
+    background-color: #121521;
+}
+
+.bg-f2 {
+    background-color: #1b2035;
+}
+
+.vid {
+    object-fit: cover;
+    height: 85vh;
+    width: 100%;
+}
+
+.bg-f {
+    background-color: #252c4a;
+}
+
+.frm {
+    width: 100%;
+}
+
+.btn-primary{
+    background-color: #ffca2c;
+    border-color: #ffca2c;
+    color:black;
+}
+
+.btn-primary:hover{
+    background-color: #ffca2c;
+    border-color: black;
+    color:  black;
+
+}
+
+.banner{
+    /* top: 28vh;
+    position: inherit;
+    position: absolute; 
+    */opacity:75% ;
+    width: 100%;
+    display: inline-block;/*
+    
+    right: 0vh; */
+}
+
+.bg-img{
+    background-size: cover;
+    height: 75vh;
+}
+
+.cont{
+    width: 824.156px;
+    height: 318.328px;
+
+    max-width: 824.156px;
+    max-height: 318.328px;
+}
+.img-w{
+    max-width: 240px;
+    max-height: 73px;
+}
+
+.btn-perso{
+    width: 225px;
+    height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,70 @@
+<div class="container text-center mt-5" >
+    <div class="row justify-content-center" >
+        <div class=" col-sm-12 col-lg-4 col-xl-4 shadow rounded" *ngFor="let new of news_update.news_updates; let i = index" >
+
+
+
+
+
+            <div *ngIf="mostrar">
+                <div class="card border-0 align-items-center p-3" *ngIf="i<3">
+                    <div class="" style="max-height: 1000px;">
+                        <img class="card-img-top img-card img w-50 " [src]="new.image">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text text-start ">
+                        
+                            <h4>{{new.title}}</h4>
+                            <p>{{new.body}}</p>
+
+
+                        </div>
+
+                        <div class="mt-5 text-start">
+                            <a href="#" class="">Read More</a>
+                            <p class="h4">{{new.date}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div *ngIf="!mostrar">
+                <div class="card border-0 align-items-center p-3" *ngIf="i>=3">
+                    <div class="" style="max-height: 1000px;">
+                        <img class="card-img-top img-card img w-50 " [src]="new.image">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text text-start ">
+                        
+                            <h4>{{new.title}}</h4>
+                            <p>{{new.body}}</p>
+
+
+                        </div>
+
+                        <div class="mt-5 text-start">
+                            <a href="#" class="">Read More</a>
+                            <p class="h4">{{new.date}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="my-5">
+            <button (click)="cambiar()" class="btn btn-warning text-center w-25" *ngIf="mostrar">Next ></button>
+            <button (click)="cambiar()" class="btn btn-warning text-center w-25" *ngIf="!mostrar"> &lt; Prev</button>
+        </div>
+
+
+
+
+

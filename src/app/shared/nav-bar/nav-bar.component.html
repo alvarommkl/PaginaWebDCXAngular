@@ -1,0 +1,132 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" routerLink=""><img src="../../../../assets/images/logo.svg" width="100"></a>
+        <div class="">
+            <button class="navbar-toggler align-self-end border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#search" aria-expanded="false" aria-controls="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown align-items-center">
+                    <div class="dropdown">
+                        <button class="btn btn-block dropdown-toggle texto-nav" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Trade
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" routerLink="trade/rice_exchange">Rice Exchange</a></li>
+                            <li><a class="dropdown-item" routerLink="trade/fertilizer_exchange">Fertilizer Exchange</a></li>
+                            <li><a class="dropdown-item" routerLink="trade/dcx_pulse">DCX Pulse</a></li>
+                            <li><a class="dropdown-item" routerLink="trade/dcx_grain">DCX Grain</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block dropdown-toggle texto-nav" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" routerLink="services/dcx_finance">DCX Finance</a></li>
+                            <li><a class="dropdown-item" routerLink="services/dcx_freight">DCX Freight</a></li>
+                            <li><a class="dropdown-item" routerLink="services/dcx_insurance">DCX Insurance</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block texto-nav" type="button" id="dropdownMenuButton1">
+                            Our Partners
+                        </button>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block texto-nav" type="button" id="dropdownMenuButton1">
+                            Market Insights
+                        </button>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block dropdown-toggle texto-nav" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Community
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" routerLink="community/social_media">Social Media</a></li>
+                            <li><a class="dropdown-item" routerLink="community/news_and_updates">News & Update</a></li>
+                            <li><a class="dropdown-item" routerLink="community/blog_posts">Blog Posts</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block texto-nav" type="button">
+                            About DCX
+                        </button>
+                    </div>
+                </li>
+                <li class="nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block texto-nav" type="button">
+                            Contact Us
+                        </button>
+                    </div>
+                </li>
+                <li class="nav-item dropdown d-none d-lg-inline">
+                    <div class="dropdown">
+                        <button class="btn rounded" type="button" data-bs-toggle="collapse" data-bs-target="#search"
+                            aria-expanded="false" aria-controls="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </li>
+                <li class="mx-2 my-3 my-lg-0 nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block dropdown-toggle border-dark" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Login
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item w-50 py-2 px-4" href="#">Digital Commodity Exchange</a></li>
+                            <li><a class="dropdown-item w-50 py-2 px-4" href="#">Fertilizer Exchange</a></li>
+                            <li><a class="dropdown-item w-50 py-2 px-4" href="#">Rice Exchange</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="mx-2 nav-item dropdown ">
+                    <div class="dropdown">
+                        <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false" >
+                            Start trading
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item py-2 px-4" href="#">Fertilizers</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="#">Rice</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="#">Pulses</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="#">Grains</a></li>
+                            <li><a class="dropdown-item py-2 px-4" href="">Other Commodities</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="collapse text-center w-100 text-center bg-white" style="position: absolute; z-index: 100;" id="search">
+    <form action="#">
+        <input type="text" class="text-black border w-50 m-0" placeholder="Search..."
+            style=" max-width: 426px; max-height: 32px;" name="inp_search" id="inp_txt" />
+        <button  type="submit" class="btn  btn-primary m-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+</div>

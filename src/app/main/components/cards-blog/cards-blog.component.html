@@ -1,0 +1,29 @@
+<div class="container text-center mt-5" >
+    <div class="row justify-content-center" >
+        <div class=" col-sm-12 col-md-6 col-xl-4 shadow rounded" *ngFor="let data of datos.json_data" >
+            <div class="card border-0 align-items-center p-3" >
+                <div class="" style="max-height: 1000px;">
+                    <img class="card-img-top img-card img w-50 " [src]="data.image">
+
+                </div>
+                <div class="card-body">
+                    <div class="card-text text-start ">
+                    
+                        <h4>{{data.title}}</h4>
+                        <p>{{data.body}}</p>
+
+
+                    </div>
+
+                    <div class="mt-5 text-start">
+                        <a href="#" class="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
