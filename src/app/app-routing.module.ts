@@ -9,6 +9,9 @@ import { DcxPulseComponent } from './main/pages/dcx-pulse/dcx-pulse.component';
 import { DcxGrainComponent } from './main/pages/dcx-grain/dcx-grain.component';
 import { SocialMediaComponent } from './main/pages/social-media/social-media.component';
 import { NewsAndUpdatesComponent } from './main/pages/news-and-updates/news-and-updates.component';
+import { DcxFinanceComponent } from './main/pages/dcx-finance/dcx-finance.component';
+import { DcxFreightComponent } from './main/pages/dcx-freight/dcx-freight.component';
+import { DcxInsuranceComponent } from './main/pages/dcx-insurance/dcx-insurance.component';
 
 
 
@@ -31,6 +34,14 @@ const routes:Routes=[
             {path:'social_media', component:SocialMediaComponent},
             {path:'news_and_updates',component:NewsAndUpdatesComponent},
             {path:'blog_posts',component:BlogPostsComponent}
+        ]
+    },
+    {
+        path:'services',
+        children:[
+            {path:'dcx_finance',component:DcxFinanceComponent},
+            {path:'dcx_freight',component:DcxFreightComponent},
+            {path:'dcx_insurance',component:DcxInsuranceComponent}
         ]
     },
     {

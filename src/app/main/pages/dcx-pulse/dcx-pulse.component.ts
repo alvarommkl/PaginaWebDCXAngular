@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class DcxPulseComponent implements OnInit {
-
+id:number = 2
   constructor() { }
 
   ngOnInit(): void {

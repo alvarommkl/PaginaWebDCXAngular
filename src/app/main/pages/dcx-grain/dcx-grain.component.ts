@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class DcxGrainComponent implements OnInit {
-
+id:number = 3
   constructor() { }
 
   ngOnInit(): void {

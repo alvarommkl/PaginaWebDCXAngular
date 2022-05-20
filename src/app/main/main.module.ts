@@ -17,6 +17,9 @@ import { SocialMediaComponent } from './pages/social-media/social-media.componen
 import { NewsAndUpdatesComponent } from './pages/news-and-updates/news-and-updates.component';
 import { NewsUpdateCardsComponent } from './components/news-update-cards/news-update-cards.component';
 import { BannerImgRiceComponent } from './components/banner-img-rice/banner-img-rice.component';
+import { DcxFinanceComponent } from './pages/dcx-finance/dcx-finance.component';
+import { DcxFreightComponent } from './pages/dcx-freight/dcx-freight.component';
+import { DcxInsuranceComponent } from './pages/dcx-insurance/dcx-insurance.component';
 
 
 
@@ -38,7 +41,10 @@ import { BannerImgRiceComponent } from './components/banner-img-rice/banner-img-
     SocialMediaComponent,
     NewsAndUpdatesComponent,
     NewsUpdateCardsComponent,
-    BannerImgRiceComponent
+    BannerImgRiceComponent,
+    DcxFinanceComponent,
+    DcxFreightComponent,
+    DcxInsuranceComponent
   ],
   imports: [
     CommonModule

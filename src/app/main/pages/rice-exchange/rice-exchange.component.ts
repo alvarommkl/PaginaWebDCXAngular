@@ -6,11 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class RiceExchangeComponent implements OnInit {
-
+export class RiceExchangeComponent  {
+id:number = 0;
   constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }

@@ -36,4 +36,37 @@
     color:  black;
 
 }
+
+.banner{
+    /* top: 28vh;
+    position: inherit;
+    position: absolute; 
+    */opacity:75% ;
+    width: 100%;
+    display: inline-block;/*
+    
+    right: 0vh; */
+}
+
+.bg-img{
+    background-size: cover;
+    height: 75vh;
+}
+
+.cont{
+    width: 824.156px;
+    height: 318.328px;
+
+    max-width: 824.156px;
+    max-height: 318.328px;
+}
+.img-w{
+    max-width: 240px;
+    max-height: 73px;
+}
+
+.btn-perso{
+    width: 225px;
+    height: 50px;
+}
 /*# sourceMappingURL=style.css.map */
