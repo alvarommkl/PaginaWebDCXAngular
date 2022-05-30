@@ -6,56 +6,49 @@
             "img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61f18def6045727ffec756bf_Rice%20Exchange%20Logo.svg",
             "title":"",
             "body":"Rice Exchange is a digital blockchain-enabled rice trading platform bringing transparency, liquidity, security and improved access to the $450 billion rice market.",
-            "position":"justify-content-end",
-            "_id":0
+            "position":"end"
         },
         {
             "background_img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61de01c666c3a35f3878cd0d_iStock-1284379612.jpeg",
             "img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61b6eea933dc416270d2643c_fertilizer%20exchange.png",
             "title":"Fertilizer Exchange is a digital platform that lets buyers, sellers and third parties trade fertilizers quickly and securely.",
             "body":"Fully integrated with service providers and built on blockchain, it is an online ecosystem for the international fertilizer trade.",
-            "position":"justify-content-start",
-            "_id":1
+            "position":"start"
         },
         {
             "background_img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61de02f39da6ae6c07997b34_iStock-1290538282.jpeg",
             "img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61f2420e945ea9d87755b8df_DCX%20Pulses%20logo.svg",
             "title":"",
             "body":"DCX Pulses offers an integrated and secure blockchain online ecosystem to help buyers and sellers efficiently trade and deliver pulses, including chickpeas, lentils, beans and more globally.",
-            "position":"justify-content-start",
-            "_id":2
+            "position":"start"
         },
         {
             "background_img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/620a51d934ab23d4b9c9f0cd_Pulses%20iStock-1284379612%20.jpg",
             "img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61b7dd586e11603c57338657_DCX%20Grains%20Logo.png",
             "title":"",
             "body":"DCX Grains will launch in Q2 2022, enabling users to trade barley, corn and wheat",
-            "position":"justify-content-start",
-            "_id":3
+            "position":"start"
         },
         {
             "background_img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61de03216ef8ec82dfd1349e_iStock-1197955157.jpg",
             "img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61f2438eeb0738a23742cf98_DCX%20Finance.svg",
             "title":"",
             "body":"DCX Finance is embedded in the platforms to enable finance providers to provide trade finance solutions to users based on trades.",
-            "position":"justify-content-start",
-            "_id":4
+            "position":"start"
         },
         {
             "background_img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61de039b9bf28f0f3285f927_iStock-1289739813.jpeg",
             "img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61f247eb75cb9f7209d9e05c_Freight%20Logo.svg",
             "title":"",
             "body":"DCX Freight connects buyers and sellers to maritime transport providers and brokers and offers easy access to freight quotes, bookings and contracting in the  dry bulk and container segments.",
-            "position":"justify-content-end",
-            "_id":5
+            "position":"end"
         },
         {
             "background_img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61de0363218d5e33cf5ec36c_iStock-1342398509.jpeg",
             "img":"https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61f245be77abdfdc3aee7857_Insurance.svg",
             "title":"DCX Insurance connects buyers and sellers with top insurance providers to manage risk across the supply chain.",
             "body":"Access competitive quotes directly on the trading platform",
-            "position":"justify-content-start",
-            "_id":6
+            "position":"start"
         }
     ]
 }

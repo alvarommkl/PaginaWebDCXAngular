@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light">
+<!-- <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <a class="navbar-brand" routerLink=""><img src="../../../../assets/images/logo.svg" width="100"></a>
         <div class="">
@@ -128,5 +128,182 @@
         <input type="text" class="text-black border w-50 m-0" placeholder="Search..."
             style=" max-width: 426px; max-height: 32px;" name="inp_search" id="inp_txt" />
         <button  type="submit" class="btn  btn-primary m-0"><i class="fa-solid fa-magnifying-glass"></i></button>
-    </form>
-</div>
+    </form> 
+</div> -->
+
+
+<mat-card fxLayout="row"  fxLayout="center" >
+
+<div fxFlex.lt-md="100%" fxLayoutAlign="center" fxFlex="column">
+        <mat-toolbar fxFlex="row" class="bg-white" fxFlex="100%" fxLayoutAlign="center">
+
+            <!-- <button mat-icon-button>
+                    <mat-icon>menu</mat-icon>
+                </button> -->
+                <div fxLayout="center" fxFlex="50" fxFlex.lg="100%" fxFlex.lt-lg="100%">
+
+                <mat-toolbar-row fxLayoutGap="10px" fxFlex="100%"   fxHide fxShow.gt-lg="true">
+                  
+            <button mat-button routerLink=""><img src="../../../assets/images/logo.svg" width="100"></button>
+            <!-- <span class="spacer"></span> -->
+            <button mat-button [matMenuTriggerFor]="trade">Trade<mat-icon>arrow_drop_down</mat-icon></button>
+            <mat-menu #trade="matMenu">
+                <button mat-menu-item routerLink="/trade/rice_exchange">Rice Exchange</button>
+                <button mat-menu-item routerLink="/trade/fertilizer_exchange">Fertilizer Exchange</button>
+                <button mat-menu-item routerLink="/trade/dcx_pulse">DCX Pulses</button>
+                <button mat-menu-item routerLink="/trade/dcx_grain">DCX Grains</button>
+            </mat-menu>
+            <button mat-button [matMenuTriggerFor]="services">Services<mat-icon>arrow_drop_down</mat-icon></button>
+            <mat-menu #services="matMenu">
+                <button mat-menu-item routerLink="/services/dcx_finance">DCX Finance</button>
+                <button mat-menu-item routerLink="/services/dcx_freight">DCX Freight</button>
+                <button mat-menu-item routerLink="/services/dcx_insurance">DCX Insurance</button>
+            </mat-menu>
+            <button mat-button>Our Partners</button>
+            <button mat-button>Market Innsights</button>
+            <button mat-button [matMenuTriggerFor]="comunnity">Community<mat-icon>arrow_drop_down</mat-icon></button>
+            <mat-menu #comunnity="matMenu">
+
+                
+
+
+                <button mat-menu-item routerLink="community/social_media">Social Media</button>
+                <button mat-menu-item routerLink="community/news_and_updates">News & Updates</button>
+                <button mat-menu-item routerLink="community/blog_posts">Blog Posts</button>
+            </mat-menu>
+            <button mat-button>About DCX</button>
+            <button mat-button [matMenuTriggerFor]="contact_us">Contact Us<mat-icon>arrow_drop_down</mat-icon> </button>
+            
+            <button mat-button (click)="cambiar()">
+                <mat-icon>search</mat-icon>
+            </button>
+            <button mat-stroked-button [matMenuTriggerFor]="login">Login<mat-icon>arrow_drop_down</mat-icon></button>
+            <mat-menu #login="matMenu">
+                <button mat-menu-item>Digital Commodity Exchange</button>
+                <button mat-menu-item>Fertilizer Exchange</button>
+                <button mat-menu-item >Rice Exchange</button>
+            </mat-menu>
+            <button mat-flat-button [matMenuTriggerFor]="start_trading" color="accent">
+                Start Trading<mat-icon>arrow_drop_down</mat-icon>
+            </button>
+            <mat-menu #start_trading="matMenu">
+                <button mat-menu-item>Fertilizer</button>
+                <button mat-menu-item>Rice </button>
+                <button mat-menu-item>Pulses </button>
+                <button mat-menu-item>Grains </button>
+                <button mat-menu-item>Other Commodities </button>
+            </mat-menu>
+                </mat-toolbar-row>
+                <mat-toolbar-row fxFlex="100%" fxLayout="row" fxLayoutAlign="center" fxShow="true" fxHide.gt-lg>
+                    <button mat-button routerLink=""><img src="../../../assets/images/logo.svg" width="100"></button>
+                    <span class="spacer"></span>
+                    <button mat-flat-button color="accent">Trade Now</button>
+                    <button mat-button><mat-icon>search</mat-icon></button>
+                    <button mat-button (click)="menu.toggle()"><mat-icon>menu</mat-icon></button>
+        
+                    
+                </mat-toolbar-row>
+
+            </div>
+            
+            </mat-toolbar>
+            
+        </div>
+        
+        
+<mat-menu #contact_us="matMenu"  >
+    <div fxLayout="column"    fxLayoutAlign="start">
+        <div fxLayout="row" fxFlex="50" >
+            <div><button class="btn-contact"  mat-menu-item>Contact Details</button></div>
+            <div><button class="btn-contact" mat-menu-item>Help Center - FAQs</button></div>
+
+            
+        </div>
+        <div  fxLayout="row" fxLayoutGap="35" fxFlex="50">
+            <div>
+                <p>Let's Talk
+                    <img src="https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61dd505efd38e952debc2d57_whatsapp%20blck.svg" alt="" class="rs-ico">
+                    <img src="https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61deaf94e5669cb188eaf1d3_email%20icon.svg" alt="" class="rs-ico">
+                </p>
+            </div>
+            <div>
+                <p>
+                    Follow Us:
+                    <img class="rs-ico" src="https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61dd5195ed0fa4adcdd9aa84_linkedin%20black.svg" alt="">
+                    <img src="https://uploads-ssl.webflow.com/61b30e6ad88d4350b94fa0c6/61dd51953abe16306f79ebbb_fb%20black.svg" alt="" class="rs-ico">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="this.temp">
+        <form  action="#">
+            <input type="text" class="text-black border w-50 m-0" placeholder="Search..."
+                style=" max-width: 426px; max-height: 32px;" name="inp_search" id="inp_txt" />ayudaaaaa
+            <button  type="submit" class="btn  btn-primary m-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+    </div>
+</mat-menu>
+
+
+</mat-card>
+<mat-card>
+
+    <div fxLayout="column">
+        
+        <mat-expansion-panel fxLayout="column" fxFlex="100%" #menu [expanded]="false">
+            <button mat-button fxLayoutAlign="start" class="btn-expanded" (click)="trade1.toggle()">Trade</button>
+            <mat-expansion-panel #trade1 [expanded]="false">
+                <button mat-button routerLink="trade/rice_exchange" fxLayoutAlign="start" class="btn-expanded">Rice Exchange</button>
+                <button mat-button routerLink="trade/fertilizer_exchange" fxLayoutAlign="start" class="btn-expanded">Fertilizer Exchange</button>
+                <button mat-button routerLink="trade/dcx_pulse" fxLayoutAlign="start" class="btn-expanded">DCX Pulses</button>
+                <button mat-button routerLink="trade/dcx_grain" fxLayoutAlign="start" class="btn-expanded">DCX Grains</button>
+            </mat-expansion-panel>
+
+            <button mat-button fxLayoutAlign="start" class="btn-expanded" (click)="services1.toggle()">Services</button>
+            
+            <mat-expansion-panel #services1 [expanded]="false">
+                <button mat-button="" fxLayoutAlign="start" routerLink="services/dcx_finance" class="btn-expanded">DCX Finance</button>
+                <button mat-button="" fxLayoutAlign="start" routerLink="services/dcx_freight" class="btn-expanded">DCX Freight</button>
+                <button mat-button="" fxLayoutAlign="start" routerLink="services/dcx_insurance" class="btn-expanded">DCX Insurance</button>
+            </mat-expansion-panel>
+
+            <button mat-button fxLayoutAlign="start" class="btn-expanded">Our Partners</button>
+            <button mat-button fxLayoutAlign="start" class="btn-expanded">Market Insights</button>
+            <button mat-button fxLayoutAlign="start" class="btn-expanded" (click)="community1.toggle()">Community</button>
+            <mat-expansion-panel #community1 [expanded]="false">
+                <button mat-button="" fxLayoutAlign="start" routerLink="community/" class="btn-expanded">Social Media</button>
+                <button mat-button="" fxLayoutAlign="start" routerLink="community/news_and_updates"class="btn-expanded">News & Updates</button>
+                <button mat-button="" fxLayoutAlign="start" routerLink="community/blog_posts"class="btn-expanded">Blog Posts</button>
+            </mat-expansion-panel>
+            
+            <button mat-button fxLayoutAlign="start" class="btn-expanded">About DCX</button>
+            
+            <button mat-button fxLayoutAlign="start" class="btn-expanded" (click)="contact.toggle()">Contact Us</button>
+            <mat-expansion-panel #contact [expanded]="false">prueba</mat-expansion-panel>
+            
+            
+            <button mat-button fxLayoutAlign="start" class="btn-expanded" (click)="login1.toggle()">Login</button>
+            <mat-expansion-panel #login1 [expanded]="false">
+                <button mat-button="" fxLayoutAlign="start" class="btn-expanded">Digital Commodity Exchange</button>
+                <button mat-button="" fxLayoutAlign="start" class="btn-expanded">Fertilizer Exchange</button>
+                <button mat-button="" fxLayoutAlign="start" class="btn-expanded">Rice Exchange</button>
+            </mat-expansion-panel>
+            
+            <button mat-button fxLayoutAlign="start" class="btn-expanded"></button>
+            
+        </mat-expansion-panel>
+    </div>
+</mat-card>
+
+<!-- 
+
+<mat-tree>
+   <mat-tree-node>Prueba</mat-tree-node>
+  </mat-tree> -->
+
+  <!-- <mat-tree>
+    <mat-tree-node> parent node </mat-tree-node>
+    <mat-tree-node> -- child node1 </mat-tree-node>
+    <mat-tree-node> -- child node2 </mat-tree-node>
+  </mat-tree> -->

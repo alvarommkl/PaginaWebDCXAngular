@@ -1,45 +1,76 @@
-<div class="" *ngFor="let bn of banner.data" >
-    <div *ngIf="this.banner.data[this.id]._id===bn._id" [ngClass]="bn.position" class="d-flex p-0 m-0 bg-img  align-items-center" [ngStyle]="{'background-image':temp(this.id)}" >
-        <!-- <img src="https://viajes.nationalgeographic.com.es/medio/2021/12/22/laos_a6b20649_1266x828.jpg" class="col-12 p-0 m-0 embed-responsive img-bg-banner" height="700vh" width="100%"> -->
+    <!-- <div  [ngClass]="banner.data[this.id].position" class="p-0 m-0 bg-img  align-items-center" [ngStyle]="{'background-image':temp(this.id)}" >
         <div class="d-inline cont">
             
-            <div [class]="'  rounded-3 bg-white banner'  ">
-                <img [src]="bn.img" class="img-w mt-3 mx-3">
+            <div class="  rounded-3 bg-white banner  ">
+                <img [src]="banner.data[this.id].img" class="img-w mt-3 mx-3">
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <h2 *ngIf="bn.title">{{bn.title}}</h2>
-                            <h4 class="mt-2 px-0"><p class="px-5">{{bn.body}}</p></h4>
+                            <h2 *ngIf="banner.data[this.id].title">{{banner.data[this.id].title}}</h2>
+                            <h4 class="mt-2 px-0"><p class="px-5">{{banner.data[this.id].body}}</p></h4>
                         </div>
                     </div>
                 </div>
                 
-                <button class="btn btn-warning px-5 mx-5 mb-4"><h6 class="my-1 mx-5">Join Us Now</h6></button>
+                <button class="btn btn-warning px-5 mx-5 mb-4"><p class="my-1 mx-5">Join Us Now</p></button>
             </div>
 
         </div>    
-    </div>
+    </div> -->
     
-</div>
 
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h2>Titulo de ejemplo</h2>
-            <br>
-            <h5>Rice Exchange has been operational since 2020 and is rapidly changing the way this important foodstuff is transacted on the international market. Rice is integral to food security as half the world’s population depends on rice as a primary source of calories and the grain is the largest import item in the food baskets of many nations.</h5>
-            <br>
-            <h5>The platform, with users from over 60 countries, digitalizes rice trading using blockchain distributed ledger technology. Buyers, sellers and service providers connect in a digital environment, efficiently conduct trades and arrange insurance, shipping, inspection and settlement with the assurance of verifiable data and seamless integration.Once a trade is agreed, the platform generates a standardized set of documents including the invoice, bill of lading, inspection certificates, the shipping advice and insurance documents.  A hash is created for each action and stored in the immutable audit log.</h5>
-            <br>
-            <h3>What are the benefits of Rice Exchange?</h3>
-            <ul>
-                <li>Allows buyers to achieve price discovery in both familiar and less familiar origins.</li>
-                <li> Rigorous on-boarding policy. All messages exchanged and all actions taken on the platform are recorded in the immutable audit log.</li>
-                <li>The counter function tool enables users to negotiate until all details of the trade are agreed.</li>
-            </ul>
-            <button class="btn btn-warning btn-perso">Join Us</button>
+    <div fxLayout="row" style="height: 72vh;" >
+        <div fxLayout="column" fxFlex="100%" fxLayoutAlign="center {{banner.data[this.id].position}} " class="bg-img" [ngStyle]="{'background-image':temp(this.id)}">
+            <div fxLayout="row" class="bg-white">
+                <div fxLayout="column"fxFlex="100%" class="bg-white txt" >
+                    <span class=" " >
+                        <img [src]="banner.data[this.id].img" class="opacity-100">
+                        <p *ngIf="banner.data[this.id].title" class="txt opacity-100">{{banner.data[this.id].title}}</p>
+                        <p class="txt" class="opacity-100">{{banner.data[this.id].body}}</p>
+                    </span>
+                    <div fxLayout="row" fxLayoutAlign="end">
+                        <button fxFlex="25%" mat-flat-button color="accent" ><p >Join Us Now</p></button>
+
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div fxLayout="row" fxLayoutAlign="center" >
+    <div fxLayout="column" fxFlex="65%" fxLayoutGap="5vh">
+        <br>
+            <p class="txt">Rice Exchange has been operational since 2020 and is rapidly changing the way this important foodstuff is transacted on the international market. Rice is integral to food security as half the world’s population depends on rice as a primary source of calories and the grain is the largest import item in the food baskets of many nations.</p>
+            <p class="txt">The platform, with users from over 60 countries, digitalizes rice trading using blockchain distributed ledger technology. Buyers, sellers and service providers connect in a digital environment, efficiently conduct trades and arrange insurance, shipping, inspection and settlement with the assurance of verifiable data and seamless integration.Once a trade is agreed, the platform generates a standardized set of documents including the invoice, bill of lading, inspection certificates, the shipping advice and insurance documents.  A hash is created for each action and stored in the immutable audit log.</p>
+            <p class="txt">What are the benefits of Rice Exchange?</p>
+            <ul fxLayout="column" fxLayoutGap="1vh" >
+                <li class="txt">Allows buyers to achieve price discovery in both familiar and less familiar origins.</li>
+                <li class="txt"> Rigorous on-boarding policy. All messages exchanged and all actions taken on the platform are recorded in the immutable audit log.</li>
+                <li class="txt">The counter function tool enables users to negotiate until all details of the trade are agreed.</li>
+            </ul>
+            <div fxFlex="25%">
+                <button  mat-flat-button color="accent">Join Us</button>
+
+            </div>
     </div>
 </div>
 

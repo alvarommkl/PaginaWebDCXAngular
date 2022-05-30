@@ -16,11 +16,10 @@ import { DcxGrainComponent } from './pages/dcx-grain/dcx-grain.component';
 import { SocialMediaComponent } from './pages/social-media/social-media.component';
 import { NewsAndUpdatesComponent } from './pages/news-and-updates/news-and-updates.component';
 import { NewsUpdateCardsComponent } from './components/news-update-cards/news-update-cards.component';
-import { BannerImgRiceComponent } from './components/banner-img-rice/banner-img-rice.component';
 import { DcxFinanceComponent } from './pages/dcx-finance/dcx-finance.component';
 import { DcxFreightComponent } from './pages/dcx-freight/dcx-freight.component';
 import { DcxInsuranceComponent } from './pages/dcx-insurance/dcx-insurance.component';
-
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -41,13 +40,13 @@ import { DcxInsuranceComponent } from './pages/dcx-insurance/dcx-insurance.compo
     SocialMediaComponent,
     NewsAndUpdatesComponent,
     NewsUpdateCardsComponent,
-    BannerImgRiceComponent,
     DcxFinanceComponent,
     DcxFreightComponent,
     DcxInsuranceComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ],
   exports:[
     

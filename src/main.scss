@@ -1,0 +1,6 @@
+@use '@angular/material' as mat;
+@import '@angular/material/theming';
+@import 'theme/theme-variables.scss';
+
+
+@include mat.all-component-themes($app-theme);         

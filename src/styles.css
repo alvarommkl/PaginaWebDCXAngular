@@ -1,72 +1,46 @@
-.bg-red {
-    background-color: red;
-}
 
-.bg-ft {
-    background-color: #121521;
-}
+/*# sourceMappingURL=style.css.map */
+html, body { min-height: 100%; }
+body { margin: 0; font-family: 'Open Sans', sans-serif;color: #333;font-size: 14px;line-height: 20px;}
 
-.bg-f2 {
-    background-color: #1b2035;
-}
 
-.vid {
+.vid{
     object-fit: cover;
-    height: 85vh;
     width: 100%;
-}
-
-.bg-f {
-    background-color: #252c4a;
-}
-
-.frm {
-    width: 100%;
-}
-
-.btn-primary{
-    background-color: #ffca2c;
-    border-color: #ffca2c;
-    color:black;
-}
-
-.btn-primary:hover{
-    background-color: #ffca2c;
-    border-color: black;
-    color:  black;
-
-}
-
-.banner{
-    /* top: 28vh;
-    position: inherit;
-    position: absolute; 
-    */opacity:75% ;
-    width: 100%;
-    display: inline-block;/*
-    
-    right: 0vh; */
-}
-
-.bg-img{
-    background-size: cover;
     height: 75vh;
 }
 
-.cont{
-    width: 824.156px;
-    height: 318.328px;
-
-    max-width: 824.156px;
-    max-height: 318.328px;
-}
-.img-w{
-    max-width: 240px;
-    max-height: 73px;
+.title{
+    font-size: 40px;
+    text-align: center;
 }
 
-.btn-perso{
-    width: 225px;
-    height: 50px;
+.txt{
+    font-size: 24px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.bg-f2
+{
+    background-color: #2e375b;
+
+}
+.bg-ft{
+    background-color: #000000;
+}
+
+.block{
+    image-resolution: 0;
+}
+
+.txt-white{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.txt-white-50{
+    color: #b2b2b2;
+}
+

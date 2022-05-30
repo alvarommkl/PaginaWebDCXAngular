@@ -8,5 +8,4 @@ export interface Datum {
     title:          string;
     body:           string;
     position:       string;
-    _id:            number;
 }
